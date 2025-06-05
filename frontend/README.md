@@ -1,5 +1,5 @@
-# Driva Home Assignment Backend
-A RESTful API service for managing loan applications built with Express.js, TypeScript, and Sequelize ORM.
+# Driva Home Assignment Frontend
+An app for submitting loan applications built with React, TypeScript, React Router DOM, React Hook Form and Tailwind. Tested using cypress.
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -19,25 +19,21 @@ A RESTful API service for managing loan applications built with Express.js, Type
 - [License](#license)
 
 ## Features
-- Create and retrieve loan applications
+- Multi-step journey with forms for loan details, personal details and quote results
 - Input validation using Zod schemas
-- Error handling middleware
-- Comprehensive test coverage (unit and E2E tests)
+- Error handling
+- Comprehensive test coverage (cypress tests)
 - SQLite database integration
 
 ## Tech Stack
-- **Runtime**: Node.js
-- **Framework**: Express.js
-- **Language**: TypeScript 
-- **ORM**: Sequelize with SQLite
-- **Validation**: Zod 
-- **Testing**: Jest, SuperTest 
+- **Front-end**: React
+- **Language**: TypeScript
+- **Validation**: zod
+- **Testing**: cypress
 - **Linting/Formatting**: ESLint, Prettier
-- **Build Tools**: ts-node, nodemon
 
 ## Getting Started
 ### Prerequisites
-- Node.js (LTS version recommended)
 - npm or yarn
 
 ### Installation
