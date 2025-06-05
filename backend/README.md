@@ -103,18 +103,14 @@ npm run format
 ### Endpoints
 #### Loan Applications
 - **GET /api/v1/loan-applications/:loanUuid**
-    - Retrieves a loan application by its UUID
-    - Response: 200 OK with loan application data
 
 - **POST /api/v1/loan-applications**
-    - Creates a new loan application
-    - Request Body: Loan application data 
-    - Response: 201 Created with the created loan application data
+
 
 ## Project Structure
 ``` 
 src/
-├── __tests__/           # Test files
+├── __tests__/          # Test files
 │   ├── e2e/            # End-to-end tests
 │   ├── helpers/        # Test helpers
 │   └── unit/           # Unit tests
