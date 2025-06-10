@@ -41,11 +41,6 @@ A RESTful API service for managing loan applications built with Express.js, Type
 - npm or yarn
 
 ### Installation
-1. Clone the repository:
-``` bash
-   git clone <repository-url>
-   cd driva-home-assignment-backend
-```
 1. Install dependencies:
 ``` bash
    npm install
