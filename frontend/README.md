@@ -1,5 +1,5 @@
 # Driva Home Assignment Frontend
-An app for submitting loan applications built with React, TypeScript, React Router DOM, React Hook Form, Zod and Axios. Tested using cypress.
+An app for submitting loan applications built with React + Vite, TypeScript, React Router DOM, React Hook Form, Zod and Axios. Tested using cypress.
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -21,7 +21,7 @@ An app for submitting loan applications built with React, TypeScript, React Rout
 - Integration with backend solution
 
 ## Tech Stack
-- **Front-end**: React
+- **Front-end**: React + Vite
 - **Language**: TypeScript
 - **Forms**: react-hook-form
 - **Validation**: zod
